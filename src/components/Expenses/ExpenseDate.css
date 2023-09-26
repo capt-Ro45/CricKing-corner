@@ -1,0 +1,35 @@
+/* expensedate.css */
+
+.expense-date {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #555;
+    background-color: #d3d2d2;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  .expense-date__month,
+  .expense-date__year,
+  .expense-date__day {
+    margin-right: 0.5rem;
+  }
+  
+  .expense-date__month {
+   color:navy;
+   font-size:1.5rem ;
+  }
+  
+  .expense-date__year {
+    font-size: 1.5rem;
+    color: #555; /* Use the same color as the parent .expense-date */
+  }
+  
+  .expense-date__day {
+    font-size: 1.5rem;
+    color:midnightblue;
+  }
+  

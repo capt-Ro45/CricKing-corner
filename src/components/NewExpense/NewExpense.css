@@ -1,0 +1,28 @@
+/* NewExpense.css */
+
+.NewExpense {
+    max-width: 1200px; /* Adjust the max-width to your preference */
+    margin: 2rem auto;
+    padding: 2rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background-color: #cdf7e1;
+  }
+  
+  .new-expense__button {
+    background-color: #0080ff;
+    color: rgb(204, 254, 235);
+    padding: 1.5rem 3rem; /* Increase padding to make the button larger */
+    border: none;
+    border-radius: 6px;
+    font-size: 1.4rem; /* Increase font size */
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Increase box shadow */
+    transition: background-color 0.2s, transform 0.2s;
+  }
+  
+  .new-expense__button:hover {
+    background-color: #0051b5;
+    transform: scale(1.05);
+  }
+  

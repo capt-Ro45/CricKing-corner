@@ -1,7 +1,12 @@
 .App {
   text-align: center;
+  background-color: grey; /* Set the background color here */
+  padding: 2rem;
+  font-family: 'Arial', sans-serif; /* Set your preferred font */
 }
-
+.app-title {
+  color: darkgoldenrod; /* Set the color for the title */
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -36,3 +41,5 @@
     transform: rotate(360deg);
   }
 }
+
+
